@@ -1,0 +1,59 @@
+{
+  "weights": {
+    "FCFS": null,
+    "Basic": {
+      "waiting": 1.0,
+      "maneuver": 0.8,
+      "exit_competition": 1.2,
+      "path_conflict": 1.5,
+      "approach_queue": 0.7,
+      "remaining_path": 0.0,
+      "same_direction_backlog": 0.0
+    },
+    "Original_BO": {
+      "waiting": 0.6062970657637337,
+      "maneuver": -2.0,
+      "exit_competition": -0.060181712922411146,
+      "path_conflict": 0.35449110962308106,
+      "approach_queue": -1.2855182503217426,
+      "remaining_path": 0.0,
+      "same_direction_backlog": 0.0
+    },
+    "Improved_BO": {
+      "waiting": 1.8739906149632735,
+      "maneuver": -1.4526728639842106,
+      "exit_competition": 0.9227571218937052,
+      "path_conflict": 0.9643273059783217,
+      "approach_queue": -2.4242832733622888,
+      "remaining_path": 0.0,
+      "same_direction_backlog": 0.0
+    },
+    "Original_PSO": {
+      "waiting": 0.7217028434195099,
+      "maneuver": -2.0,
+      "exit_competition": -0.3473816914846718,
+      "path_conflict": 0.9292022514259596,
+      "approach_queue": -1.150125410355106,
+      "remaining_path": 0.0,
+      "same_direction_backlog": 0.0
+    },
+    "Improved_PSO": {
+      "waiting": 1.6138101095888875,
+      "maneuver": -0.5808078049076456,
+      "exit_competition": 0.2854296527450044,
+      "path_conflict": -0.6939822176996586,
+      "approach_queue": -1.2232645755441138,
+      "remaining_path": 0.0,
+      "same_direction_backlog": 0.0
+    }
+  },
+  "train_scenarios": 400,
+  "test_scenarios": 75,
+  "bo_trials": 30,
+  "pso_evaluations": 30,
+  "speed_mps": 1.0,
+  "cell_size_m": 1.5,
+  "turn_delay_s": 0.0,
+  "simulation_dt_s": 0.1,
+  "objective_unit": "simulation ticks"
+}
